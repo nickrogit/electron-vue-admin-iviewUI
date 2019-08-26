@@ -1,0 +1,25 @@
+.DS_Store
+node_modules/
+/dist_release/
+/dist_testing/
+/dist_production/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+dist/electron/*
+dist/web/*
+build/*
+!build/icons
+package-lock.json
+npm-debug.log
+thumbs.db
+!.gitkeep
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
